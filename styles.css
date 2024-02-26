@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    background-color: #111;
+    color: #555555;
+    font-family: Aptos, Calibri, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #111;
+    color: #555555;
+    font-family: Aptos, Calibri, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Container {
+    border: 1px solid #333;
+    width: 646px;
+    height: 646px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+.box {
+    background-color: #555555;
+    border: 0.5px solid #ccc;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: 10px
+}
